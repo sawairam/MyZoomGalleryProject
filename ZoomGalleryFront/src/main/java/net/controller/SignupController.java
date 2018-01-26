@@ -29,7 +29,7 @@ import net.sr.model.RegistrationForm;
 				registrationForm.setEnabled("TRUE");
 				registrationFormDao.createUser(registrationForm);
 				m.addAttribute("registrationForm", new RegistrationForm());
-				m.addAttribute("weclome", "Welcome to Homeshop 18 "+registrationForm.getName()+"");
+				m.addAttribute("weclome", "Welcome to Zoom Gallery "+registrationForm.getName()+"");
 				return "login";
 			}
 			else

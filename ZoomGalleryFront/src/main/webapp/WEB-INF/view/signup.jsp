@@ -124,7 +124,7 @@
 							</div>
 						</div>
 						
-
+						<br>
                         <div class="row">
                          <div class="col-md-offset-3 col-md-3">
 							<button type="submit" class="btn btn-primary btn-lg btn-block login-button" formaction="register">Register</button>
@@ -137,7 +137,9 @@
 				</div>
 			</div>
 		</div>
-
+<br>
+<br>
+<br>
 
 <%@ include file="/WEB-INF/view/footer.jsp" %>
 </body>
