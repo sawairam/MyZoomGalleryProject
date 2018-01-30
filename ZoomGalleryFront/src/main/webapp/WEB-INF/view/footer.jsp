@@ -5,7 +5,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="navbar navbar-inverse navbar-static-bottom" style="background:navyblue;">
+<div class="navbar navbar-inverse navbar-static-bottom" style="background:navyblue; margin-top: 100px;">
 <div class="container">
 <div class="navbar-text pull-left">
 Author:Sawai Ram Suthar
