@@ -43,7 +43,9 @@ public class ProductController {
 
 	@RequestMapping(value = "/adminaddproduct")
 	public String addProductOperation(@ModelAttribute("product") Product product, Model m, HttpSession hs) {
+
 		MultipartFile file = product.getPimg();
+		System.out.println(file);
 		productDao.addProduct(product);
 		m.addAttribute("status", "add");
 
