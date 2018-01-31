@@ -7,8 +7,9 @@
 
 <div class="navbar navbar-inverse navbar-static-bottom" style="background:navyblue; margin-top: 100px;">
 <div class="container">
+<br>
 <div class="navbar-text pull-left">
-Author:Sawai Ram Suthar
+<span style="position:center; text-color:white;"> Copyright &#169; by ZoomGallery 2018 </span>
 &nbsp;&nbsp;
 Email:sutharsawai1996@gmail.com
 </div>
@@ -17,12 +18,10 @@ Email:sutharsawai1996@gmail.com
       <li><a href="https://www.facebook.com/login/"><i class="fa fa-facebook-official" style="font-size:24px"></i></a></li>
       <li><a href="https://twitter.com/login"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
       <li><a href="https://www.plus.google.com"><i class="fa fa-google-plus" style="font-size:24px"></i></a></li>
-    
-      
 </ul>
- 
 
 </div>
+<br>
 </div>
 </body>
 </html>

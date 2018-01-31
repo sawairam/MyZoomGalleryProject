@@ -46,8 +46,8 @@ public class ProductController {
 		MultipartFile file = product.getPimg();
 		productDao.addProduct(product);
 		m.addAttribute("status", "add");
-		String path = "C:\\Users\\HP\\NeonWorkspace\\MyProject\\ZoomGallery\\MyZoomGalleryProject\\ZoomGalleryFront\\src\\main\\webapp\\other\\images\\Products\\"
-				+ product.getId() + ".jpg";
+
+		String path = "C:\\Users\\HP\\NeonWorkspace\\MyProject\\ZoomGallery\\MyZoomGalleryProject\\ZoomGalleryFront\\src\\main\\webapp\\images\\Products\\" + product.getId() + ".jpg";
 
 		File fileupload = new File(path);
 
