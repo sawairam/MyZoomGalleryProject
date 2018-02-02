@@ -13,17 +13,16 @@
 <title>Zoom Gallery</title>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-Fixed-top"
-		style="background:navyblue;">
+	<nav class="navbar navbar-inverse navbar-Fixed-top"	style="background:navyblue;">
 	<div class="container">
-
+<br>
 		<button type="button" class="navbar-toggle" data-toggle="collapse"
 			data-target=".navbar-collapse">
 			<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
 			<span class="icon-bar"></span> <span class="icon-bar"></span>
 		</button>
 
-		<a class="nav navbar-nav navbar-left navbar-brand" href="home">Zoom Gallery</a>
+		<a class="nav navbar-nav navbar-left navbar-brand" href="home"><b><i>Zoom Gallery</i></b></a>
 		<div class="navbar-collapse collapse">
 			<ul class=" nav navbar-nav navbar-left">
 				<li><a href="home">Home</a></li>
@@ -49,7 +48,11 @@
 				<button type="submit" class="btn btn-default">Search</button>
 			</form>
 			<ul class=" nav navbar-nav navbar-right">
-			
+				<security:authorize access="hasRole('USER')">
+					<li>
+					<a href="cartpage" class="btn btn-info"><span style="color: white;" class="glyphicon glyphicon-shopping-cart">CART</span></a>
+					</li>
+				</security:authorize>
 				<security:authorize access="isAnonymous()">
 					<li><a href="signup"><span
 							class="glyphicon glyphicon-user"></span>Signup</a></li>
@@ -68,10 +71,6 @@
 								href="${pageContext.request.contextPath}/performlogoutoperation"><span
 									class="glyphicon glyphicon-log-out"></span>Logout</a></li>
 						</ul></li>
-				</security:authorize>
-				<security:authorize access="hasRole('USER')">
-					<li>
-					<a href="cartpage" class="btn btn-info"><span style="color: white;" class="glyphicon glyphicon-shopping-cart">CART</span></a></li>
 				</security:authorize>
 			</ul>
 		</div>

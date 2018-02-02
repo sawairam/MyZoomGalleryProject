@@ -3,8 +3,7 @@
    
 
 <%@ include file="/WEB-INF/view/header.jsp" %>
-
-
+<br><br>
 <style>
     .carousel-inner img {
       width: 100%; /* Set width to 100% */
@@ -50,5 +49,4 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-
-<%@ include file="/WEB-INF/view/footer.jsp" %>
+<%@ include file="/WEB-INF/view/footer.jsp"  %>
